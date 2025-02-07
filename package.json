@@ -1,0 +1,23 @@
+{
+  "name": "domyreadme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/I-0110/doMyREADME.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/I-0110/doMyREADME/issues"
+  },
+  "homepage": "https://github.com/I-0110/doMyREADME#readme",
+  "dependencies": {
+    "inquirer": "^12.4.1"
+  }
+}
