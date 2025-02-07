@@ -108,3 +108,12 @@ inquirer.prompt([
     },
 ])
 
+.then((response) => {
+    fs.writeFile(`./${response.name.toLowerCase()}.html`, (err) => { 
+        if(err) {
+            console.error(err)
+        } else {
+            console.log("Success!")
+    }})}
+);
+
