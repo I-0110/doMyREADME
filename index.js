@@ -100,18 +100,18 @@ inquirer.prompt([
         if(err) {
             console.error(err)
         } else {
-            console.log("Sucess!")
+            console.log("Success!")
         }
     })
 });
 
 
 function generateREADME(response){
-    return `# `${response.title.toUpperCase()}
+    return `# ${response.title.toUpperCase()}
 
 ## Description
 
-Our `{$response.title}` is inspired by `{$response.motivation}`. We created this project because `{$response.why}`. We resolved `{$response.problem}`. We learned that `{$response.learn}`.
+Our ${response.title} is inspired by ${response.motivation}. We created this project because ${response.why}. We resolved ${response.problem}. We learned that ${response.learn}.
 
 
 ## Table of Contents
@@ -124,53 +124,53 @@ Our `{$response.title}` is inspired by `{$response.motivation}`. We created this
 ## Installation
 
 Steps for installation:
-Step 1: `{$response.step1}`
-Step 2: `{$response.step2}`
-Step 3: `{$response.step3}`
+Step 1: ${response.step1}
+Step 2: ${response.step2}
+Step 3: ${response.step3}
 
 ## Usage
 
-You can use our `{$response.title}` by `{$response.instructions}`.
+You can use our ${response.title} by ${response.instructions}.
 
     ```md
-    ![`${response.title}`](`${response.screenshot}`)
+    ![${response.title}](${response.screenshot})
     ```
 
 ## Credits
 
 - Collaborator(s):
-`${response.collaborators}`
+${response.collaborators}
 
 - Third Party(ies):
-`${response.thirdParty}`
+${response.thirdParty}
 
 - Tutorial(s) used: 
-`${response.tutorial}`
+${response.tutorial}
 
 ## License
 
-`${response.license}`
+${response.license}
 
 ## Badges
 
-![badmath](`${response.badges}`)
+![badmath](${response.badges})
 
 ## Features
 
-`${response.features}`
+${response.features}
 
 ## How to Contribute
 
-`${response.ynApp}` application/package. 
+${response.ynApp} application/package. 
 
-`${response.ynContributorCovenant}` contributor covenant. 
+${response.ynContributorCovenant} contributor covenant. 
 
-`${response.appGuideline}`
+${response.appGuideline}
 
 ## Tests
 
-`${response.test}`
+${response.test}
 
 Created by Ivelis Becker GitHub: I-0110`
 
-};
+}
