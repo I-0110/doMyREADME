@@ -70,7 +70,7 @@ inquirer.prompt([
     {
         message: 'Add your badge(s) link(s) here (separate them with commas): https://shields.io/',
         name: 'badges'
-    }
+    },
     {
         message: "Almost done! What is/are your project's feature(s)?",
         name: 'features'
@@ -132,10 +132,8 @@ Step 3: ${response.step3}
 
 You can use our ${response.title} by ${response.instructions}.
 
-    ```md
     ![${response.title}](${response.screenshot})
-    ```
-
+    
 ## Credits
 
 - Collaborator(s):
