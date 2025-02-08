@@ -1,4 +1,4 @@
-# `${response.title}
+# `${response.title.toUpperCase()}
 
 ## Description
 
@@ -29,11 +29,14 @@ You can use our `{$response.title}` by `{$response.instructions}`.
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+#Collaborator(s):
+`${response.collaborators}`
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+#Third Party(ies):
+`${response.thirdParty}`
 
-If you followed tutorials, include links to those here as well.
+#Tutorial(s) used: 
+`${response.tutorial}`
 
 ## License
 
