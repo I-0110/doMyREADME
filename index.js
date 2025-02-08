@@ -12,6 +12,10 @@ inquirer.prompt([
         name: 'ghLink'
     },
     {
+        message: 'What is your email for questions?',
+        name: 'email'
+    },
+    {
         message: 'What is your unique project title?',
         name: 'title'
     },
@@ -169,6 +173,10 @@ ${response.appGuideline}
 
 ${response.test}
 
-Created by Ivelis Becker GitHub: I-0110`
+Created by Ivelis Becker GitHub: I-0110
+
+## Questions 
+
+For questions, please contact ${response.name}, ${response.email}, ${response.ghLink}`
 
 }
