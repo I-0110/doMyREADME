@@ -52,31 +52,16 @@ inquirer.prompt([
         name: 'screenshot'
     },
     {
-        type: 'confirm',
-        message: 'Do you have collaborators?',
-        name: 'yn-collaborators'
-    },
-    {
-        message: 'Name of your collaborators: (Please separate each of them with commas)',
+        message: "Please add your collaborator(s) name's AND GitHub link here:",
         name: 'collaborators'
     },
     {
-        type: 'confirm',
-        message: 'Did you use any third-party assets that require attribution?',
-        name: 'yn-thirdParty'
+        message: 'Please add any third-party assets that require attribution here:',
+        name: 'thirdParty'
     },
     {
-        message: 'List the creators with links to their primary web:',
-        name: 'list-thirdParty'
-    },
-    {
-        type: 'confirm',
-        message: 'Did you followed tutorial(s)?',
-        name: 'yn-tutorial'
-    },
-    {
-        message: 'List include links here:',
-        name: 'list-tutorial'
+        message: 'Please include tutorial(s) link that you used for this project:',
+        name: 'tutorial'
     },
     {
         type: 'confirm',
@@ -112,11 +97,16 @@ inquirer.prompt([
 ])
 
 .then((response) => {
-    fs.writeFile(`./${response.name.toLowerCase()}.html`, (err) => { 
+    fs.writeFile(`./${response.title.toLowerCase()}_README.md`, generateREADME(response), (err) => {
         if(err) {
             console.error(err)
         } else {
-            console.log("Success!")
-    }})}
-);
+            console.log("Sucess!")
+        }
+    })
+});
 
+
+function generateREADME(response){
+    return ``
+}
