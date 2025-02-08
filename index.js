@@ -4,23 +4,31 @@ import fs from 'fs';
 
 inquirer.prompt([
     {
+        message: 'What is your name?',
+        name: 'name'
+    },
+    {
+        message: 'What is your github link?',
+        name: 'ghLink'
+    },
+    {
         message: 'What is your unique project title?',
         name: 'title'
     },
     {
-        message: 'What was your motivation?',
+        message: 'Please complete our sentences/questions. Our project is inspired by ...',
         name: 'motivation'
     },
     {
-        message: 'Why did you build this project?', //Note: the answer is not "Because it was a homework assignment."
+        message: 'We did this project because ...', //Note: the answer is not "Because it was a homework assignment."
         name: 'why'
     },
     {
-        message: 'What problem does it solve?',
+        message: 'What problem does it solve? We resolved ...',
         name: 'problem'
     },
     {
-        message: 'What did you learn?',
+        message: 'We learned that ...',
         name: 'learn'
     },
     {
