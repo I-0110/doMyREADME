@@ -64,14 +64,13 @@ inquirer.prompt([
         name: 'tutorial'
     },
     {
-        type: 'confirm',
-        message: 'Did you have a license? If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/)',
-        name: 'yn-license'
-    },
-    {
-        message: 'What is your license?',
+        message: 'What is your license? (https://choosealicense.com/)',
         name: 'license'
     },
+    {
+        message: 'Add your badge(s) link(s) here (separate them with commas): https://shields.io/',
+        name: 'badges'
+    }
     {
         message: "Almost done! What is/are your project's feature(s)?",
         name: 'features'
@@ -79,16 +78,16 @@ inquirer.prompt([
     {
         type: 'confirm',
         message: "Is this an application or package?",
-        name: 'yn-app'
+        name: 'ynApp'
     },
     {
         type: 'confirm',
         message: "Are you doing the app/pack with [Contributor Covenant](https://www.contributor-covenant.org/)?",
-        name: 'yn-contributorCovenant'
+        name: 'ynContributorCovenant'
     },
     {
         message: "How do developers contribute? What is the guideline?",
-        name: 'app-guideline'
+        name: 'appGuideline'
     },
     {
         message: "Last Question! Would you provide examples on how to run your project/app/package here?",
@@ -97,7 +96,7 @@ inquirer.prompt([
 ])
 
 .then((response) => {
-    fs.writeFile(`./${response.title.toLowerCase()}_README.md`, generateREADME(response), (err) => {
+    fs.writeFile(`./README.md`, generateREADME(response), (err) => {
         if(err) {
             console.error(err)
         } else {
@@ -108,5 +107,70 @@ inquirer.prompt([
 
 
 function generateREADME(response){
-    return ``
-}
+    return `# `${response.title.toUpperCase()}
+
+## Description
+
+Our `{$response.title}` is inspired by `{$response.motivation}`. We created this project because `{$response.why}`. We resolved `{$response.problem}`. We learned that `{$response.learn}`.
+
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+
+Steps for installation:
+Step 1: `{$response.step1}`
+Step 2: `{$response.step2}`
+Step 3: `{$response.step3}`
+
+## Usage
+
+You can use our `{$response.title}` by `{$response.instructions}`.
+
+    ```md
+    ![`${response.title}`](`${response.screenshot}`)
+    ```
+
+## Credits
+
+- Collaborator(s):
+`${response.collaborators}`
+
+- Third Party(ies):
+`${response.thirdParty}`
+
+- Tutorial(s) used: 
+`${response.tutorial}`
+
+## License
+
+`${response.license}`
+
+## Badges
+
+![badmath](`${response.badges}`)
+
+## Features
+
+`${response.features}`
+
+## How to Contribute
+
+`${response.ynApp}` application/package. 
+
+`${response.ynContributorCovenant}` contributor covenant. 
+
+`${response.appGuideline}`
+
+## Tests
+
+`${response.test}`
+
+Created by Ivelis Becker GitHub: I-0110`
+
+};
