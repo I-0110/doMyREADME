@@ -1,8 +1,8 @@
-# `${response.title.toUpperCase()}
+# DO MY README
 
 ## Description
 
-Our `{$response.title}` is inspired by `{$response.motivation}`. We created this project because `{$response.why}`. We resolved `{$response.problem}`. We learned that `{$response.learn}`.
+Our Do My README is inspired by people who loves to code and create new apps, but do not have time to elaborate a whole README.. We created this project because this would safe us some time to keep polishing what it matters, apps!. We resolved the time consuming of a well elaborate README.. We learned that just by coming with ideas to write a README, we can spent 20 hours. That's a lot of time!.
 
 
 ## Table of Contents
@@ -15,51 +15,49 @@ Our `{$response.title}` is inspired by `{$response.motivation}`. We created this
 ## Installation
 
 Steps for installation:
-Step 1: `{$response.step1}`
-Step 2: `{$response.step2}`
-Step 3: `{$response.step3}`
+Step 1: Go to https://github.com/I-0110/doMyREADME
+Step 2: Click "Code" and copy the link under "SSH".
+Step 3: Open GitBash or your favorite termninal and type "git clone git@github.com:I-0110/doMyREADME.git
 
 ## Usage
 
-You can use our `{$response.title}` by `{$response.instructions}`.
+You can use our Do My README by completing a few questions.
 
-    ```md
-    ![`${response.title}`](`${response.screenshot}`)
-    ```
-
+    ![Do My README](./AppSample.JPG)
+    
 ## Credits
 
 - Collaborator(s):
-`${response.collaborators}`
+Ivelis Becker (I-0110)
 
 - Third Party(ies):
-`${response.thirdParty}`
+
 
 - Tutorial(s) used: 
-`${response.tutorial}`
+
 
 ## License
 
-`${response.license}`
+
 
 ## Badges
 
-![badmath](`${response.badges}`)
+![badmath](ttps://img.shields.io/badge/logo-javascript-blue?logo=javascript)
 
 ## Features
 
-`${response.features}`
+Create README in less than 10 minutes!
 
 ## How to Contribute
 
-`${response.ynApp}` application/package. 
+true application/package. 
 
-`${response.ynContributorCovenant}` contributor covenant. 
+false contributor covenant. 
 
-`${response.appGuideline}`
+Create a branch with your name, pull request, and after further revisions, your   contribution  could be added to our project.
 
 ## Tests
 
-`${response.test}`
+./AppSample.JPG
 
 Created by Ivelis Becker GitHub: I-0110
