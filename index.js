@@ -40,20 +40,15 @@ inquirer.prompt([
         name: 'step2'
     },
     {
-        type: 'confirm',
-        message: 'Is there a Step 3 required to install your project?',
-        name: 'yn-step3'
-    },
-    {
         message: 'Step 3 required to install your project:',
         name: 'step3'
     },
     {
-        message: 'How do I use your project? Provide instructions and examples here:',
+        message: 'How do I use your project? You can use our project by... (Provide instructions and examples here)',
         name: 'instructions'
     },
     {
-        message: 'Please add a screenshot of your project here: ',
+        message: 'Please add a screenshot of your project here: (Use the relative filepath)',
         name: 'screenshot'
     },
     {

@@ -5,9 +5,7 @@
 Our `{$response.title}` is inspired by `{$response.motivation}`. We created this project because `{$response.why}`. We resolved `{$response.problem}`. We learned that `{$response.learn}`.
 
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -16,16 +14,17 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Steps for installation:
+Step 1: `{$response.step1}`
+Step 2: `{$response.step2}`
+Step 3: `{$response.step3}`
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+You can use our `{$response.title}` by `{$response.instructions}`.
 
     ```md
-    ![alt text](assets/images/screenshot.png)
+    ![`${response.title}`](`${response.screenshot}`)
     ```
 
 ## Credits
