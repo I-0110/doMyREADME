@@ -58,6 +58,6 @@ Create a branch with your name, pull request, and after further revisions, your 
 
 ## Tests
 
-./DoMyREADMESAMPLE.JPG
+./assets/DoMyREADMESAMPLE.JPG
 
 Created by Ivelis Becker GitHub: I-0110
