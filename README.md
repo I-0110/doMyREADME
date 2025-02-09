@@ -2,7 +2,7 @@
 
 ## Description
 
-Our Do My README is inspired by people who loves to code and create new apps, but do not have time to elaborate a whole README.. We created this project because this would safe us some time to keep polishing what it matters, apps!. We resolved the time consuming of a well elaborate README.. We learned that just by coming with ideas to write a README, we can spent 20 hours. That's a lot of time!.
+Our Do My README is inspired by people who love to code more and write less. . We created this project because we were looking for an alternative that save us some time doing README's while we have more time to make sure our  projects and applications are working fine. . We resolved speding twenty hours building a professional README last time. . We learned that with an app like this one, we can save some time also in other details that we spent extra time, too. Like creating a slide presentation of our projects. (Plans for our next app).
 
 
 ## Table of Contents
@@ -15,20 +15,20 @@ Our Do My README is inspired by people who loves to code and create new apps, bu
 ## Installation
 
 Steps for installation:
-Step 1: Go to https://github.com/I-0110/doMyREADME
-Step 2: Click "Code" and copy the link under "SSH".
-Step 3: Open GitBash or your favorite termninal and type "git clone git@github.com:I-0110/doMyREADME.git
+Step 1: go to https://github.com/I-0110/doMyREADME
+Step 2: click the button "code" and copy the link under "SSH"
+Step 3: go to your favorite terminal. Clone and save the app in your computer and listo!
 
 ## Usage
 
-You can use our Do My README by completing a few questions.
+You can use our Do My README by answering a few questions and publishing your professional README when you are done. .
 
-    ![Do My README](./AppSample.JPG)
+    ![Do My README](./assets/DoMyREADMESAMPLE.JPG)
     
 ## Credits
 
 - Collaborator(s):
-Ivelis Becker (I-0110)
+Ivelis Becker https://github.com/I-0110/
 
 - Third Party(ies):
 
@@ -38,15 +38,15 @@ Ivelis Becker (I-0110)
 
 ## License
 
-
+MIT License
 
 ## Badges
 
-![badmath](ttps://img.shields.io/badge/logo-javascript-blue?logo=javascript)
+![badmath](https://img.shields.io/badge/JavaScript-yellow_%25100)
 
 ## Features
 
-Create README in less than 10 minutes!
+It creates almost a perfect README!
 
 ## How to Contribute
 
@@ -54,10 +54,14 @@ true application/package.
 
 false contributor covenant. 
 
-Create a branch with your name, pull request, and after further revisions, your   contribution  could be added to our project.
+You can send an email with your ideas or make a request, and after verifying, your contribution can be added  here. Make sure to share your  name, github , and email. 
 
 ## Tests
 
-./assets/DoMyREADMESAMPLE.JPG
+(link of this video here)
 
 Created by Ivelis Becker GitHub: I-0110
+
+## Questions 
+
+For questions, please contact Ivelis Becker, ivelisbecker@gmail.com, github.com/I-0110
