@@ -58,7 +58,7 @@ You can send an email with your ideas or make a request, and after verifying, yo
 
 ## Tests
 
-(link of this video here)
+https://watch.screencastify.com/v/umAkhnBIDZ6Qo7W3fRXK 
 
 Created by Ivelis Becker GitHub: I-0110
 
